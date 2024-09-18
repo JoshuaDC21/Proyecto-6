@@ -25,7 +25,7 @@ if build_histogram: # si la casilla de verificación está seleccionada
             st.plotly_chart(fig_1, use_container_width=True)
 
 #Genera un gráfico de dispersión
-if build_histogram: # si la casilla de verificación está seleccionada
+if build_scatter: # si la casilla de verificación está seleccionada
             
             st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
             
